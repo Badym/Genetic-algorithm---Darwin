@@ -1,0 +1,137 @@
+\begin{theindex}
+
+  \item {chromosom}, \hyperpage{5}
+    \subitem {geny}, \hyperpage{5}
+
+  \indexspace
+
+  \item {Dawrwin\_inne\_podejscie.cpp}, \hyperpage{7}
+    \subitem {main}, \hyperpage{7}
+
+  \indexspace
+
+  \item {f\_przel}
+    \subitem {funkcje.cpp}, \hyperpage{8}
+    \subitem {funkcje.h}, \hyperpage{16}
+  \item {file\_generator}
+    \subitem {funkcje.cpp}, \hyperpage{9}
+    \subitem {funkcje.h}, \hyperpage{16}
+  \item {funkcja2}
+    \subitem {funkcje.cpp}, \hyperpage{9}
+    \subitem {funkcje.h}, \hyperpage{17}
+  \item {funkcja3}
+    \subitem {funkcje.cpp}, \hyperpage{10}
+    \subitem {funkcje.h}, \hyperpage{17}
+  \item {funkcja4}
+    \subitem {funkcje.cpp}, \hyperpage{10}
+    \subitem {funkcje.h}, \hyperpage{18}
+  \item {funkcja5}
+    \subitem {funkcje.cpp}, \hyperpage{10}
+    \subitem {funkcje.h}, \hyperpage{18}
+  \item {funkcje.cpp}, \hyperpage{7}
+    \subitem {f\_przel}, \hyperpage{8}
+    \subitem {file\_generator}, \hyperpage{9}
+    \subitem {funkcja2}, \hyperpage{9}
+    \subitem {funkcja3}, \hyperpage{10}
+    \subitem {funkcja4}, \hyperpage{10}
+    \subitem {funkcja5}, \hyperpage{10}
+    \subitem {krzyzowanie}, \hyperpage{12}
+    \subitem {los}, \hyperpage{12}
+    \subitem {odczyt}, \hyperpage{12}
+    \subitem {sprawdzanie\_przel}, \hyperpage{13}
+    \subitem {wpisanie}, \hyperpage{13}
+    \subitem {wymieranie\_rozmnazanie}, \hyperpage{14}
+    \subitem {wypisz\_osobnik}, \hyperpage{14}
+    \subitem {wypisz\_populacje}, \hyperpage{14}
+    \subitem {zapisz\_do\_pliku}, \hyperpage{15}
+  \item {funkcje.h}, \hyperpage{15}
+    \subitem {f\_przel}, \hyperpage{16}
+    \subitem {file\_generator}, \hyperpage{16}
+    \subitem {funkcja2}, \hyperpage{17}
+    \subitem {funkcja3}, \hyperpage{17}
+    \subitem {funkcja4}, \hyperpage{18}
+    \subitem {funkcja5}, \hyperpage{18}
+    \subitem {krzyzowanie}, \hyperpage{19}
+    \subitem {los}, \hyperpage{19}
+    \subitem {odczyt}, \hyperpage{19}
+    \subitem {sprawdzanie\_przel}, \hyperpage{20}
+    \subitem {wpisanie}, \hyperpage{20}
+    \subitem {wymieranie\_rozmnazanie}, \hyperpage{20}
+    \subitem {wypisz\_osobnik}, \hyperpage{21}
+    \subitem {wypisz\_populacje}, \hyperpage{21}
+    \subitem {zapisz\_do\_pliku}, \hyperpage{22}
+
+  \indexspace
+
+  \item {geny}
+    \subitem {chromosom}, \hyperpage{5}
+
+  \indexspace
+
+  \item {jadro}
+    \subitem {osobnik}, \hyperpage{6}
+
+  \indexspace
+
+  \item {krzyzowanie}
+    \subitem {funkcje.cpp}, \hyperpage{12}
+    \subitem {funkcje.h}, \hyperpage{19}
+
+  \indexspace
+
+  \item {los}
+    \subitem {funkcje.cpp}, \hyperpage{12}
+    \subitem {funkcje.h}, \hyperpage{19}
+
+  \indexspace
+
+  \item {main}
+    \subitem {Dawrwin\_inne\_podejscie.cpp}, \hyperpage{7}
+
+  \indexspace
+
+  \item {odczyt}
+    \subitem {funkcje.cpp}, \hyperpage{12}
+    \subitem {funkcje.h}, \hyperpage{19}
+  \item {osobnik}, \hyperpage{5}
+    \subitem {jadro}, \hyperpage{6}
+  \item {osobniki}
+    \subitem {populacja}, \hyperpage{6}
+
+  \indexspace
+
+  \item {pf}
+    \subitem {populacja}, \hyperpage{6}
+  \item {populacja}, \hyperpage{6}
+    \subitem {osobniki}, \hyperpage{6}
+    \subitem {pf}, \hyperpage{6}
+
+  \indexspace
+
+  \item {sprawdzanie\_przel}
+    \subitem {funkcje.cpp}, \hyperpage{13}
+    \subitem {funkcje.h}, \hyperpage{20}
+  \item {struktury.h}, \hyperpage{23}
+
+  \indexspace
+
+  \item {wpisanie}
+    \subitem {funkcje.cpp}, \hyperpage{13}
+    \subitem {funkcje.h}, \hyperpage{20}
+  \item {wymieranie\_rozmnazanie}
+    \subitem {funkcje.cpp}, \hyperpage{14}
+    \subitem {funkcje.h}, \hyperpage{20}
+  \item {wypisz\_osobnik}
+    \subitem {funkcje.cpp}, \hyperpage{14}
+    \subitem {funkcje.h}, \hyperpage{21}
+  \item {wypisz\_populacje}
+    \subitem {funkcje.cpp}, \hyperpage{14}
+    \subitem {funkcje.h}, \hyperpage{21}
+
+  \indexspace
+
+  \item {zapisz\_do\_pliku}
+    \subitem {funkcje.cpp}, \hyperpage{15}
+    \subitem {funkcje.h}, \hyperpage{22}
+
+\end{theindex}

@@ -1,0 +1,347 @@
+\hypertarget{funkcje_8cpp}{}\doxysection{Dokumentacja pliku funkcje.\+cpp}
+\label{funkcje_8cpp}\index{funkcje.cpp@{funkcje.cpp}}
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$random$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include \char`\"{}struktury.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}funkcje.\+h\char`\"{}}\newline
+\doxysubsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_ac57e3f48d4c3de8f8ee280c4db13fc93}{file\+\_\+generator}} (const std\+::string \&file, const std\+::size\+\_\+t \&il\+\_\+wierszy, const std\+::size\+\_\+t \&maks\+\_\+dl, const int min\+\_\+dl, const std\+::size\+\_\+t \&maksyzmalna\+\_\+wartosc, const int minimalna\+\_\+warotsc)
+\begin{DoxyCompactList}\small\item\em Funkcja generuje plilk z przykladowa populacja. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{funkcje_8cpp_ac151dcf388e30ebdbc5d2a7d575ab3a9}{sprawdzanie\+\_\+przel}} (const int ile, char $\ast$params\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdza poprawnosc przelacznikow podanych na wejsciu. \end{DoxyCompactList}\item 
+std\+::map$<$ std\+::string, char $\ast$ $>$ \mbox{\hyperlink{funkcje_8cpp_ac9e4bf92845aad99db76024c69b3f9a3}{f\+\_\+przel}} (const int ile, char $\ast$params\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja tworzy mape przelacznikow. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structpopulacja}{populacja}} \mbox{\hyperlink{funkcje_8cpp_a3996afae01b1dbc8829e177f04620709}{odczyt}} (const std\+::string \&nazwa\+\_\+pliku)
+\begin{DoxyCompactList}\small\item\em Funkcja odczytuje z pliku populacje. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{funkcje_8cpp_abe83147bf8ecda024b885f559c6db8a2}{zapisz\+\_\+do\+\_\+pliku}} (const \mbox{\hyperlink{structpopulacja}{populacja}} \&POPA, const std\+::string \&nazwa\+\_\+pliku)
+\begin{DoxyCompactList}\small\item\em Funkcja zapisuje do pliku populacje. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{funkcje_8cpp_ac820e4374e5bbefc64cdb2f51bcc99fc}{wypisz\+\_\+populacje}} (const \mbox{\hyperlink{structpopulacja}{populacja}} \&POPA)
+\begin{DoxyCompactList}\small\item\em Funkcja wypisuje na ekran populacje. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{funkcje_8cpp_a93288eaeffadaa4318ca5e9524c058bc}{wypisz\+\_\+osobnik}} (const \mbox{\hyperlink{structosobnik}{osobnik}} \&osA)
+\begin{DoxyCompactList}\small\item\em Funkcja wypisuje na ekran osobnik. \end{DoxyCompactList}\item 
+std\+::size\+\_\+t \mbox{\hyperlink{funkcje_8cpp_a8848f875fd84494829909855f035f860}{los}} (const int mini, const std\+::size\+\_\+t \&maks)
+\begin{DoxyCompactList}\small\item\em Funkcja losuje z dodatniego przedzialu liczbe calkowita. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{funkcje_8cpp_a0e17347af2c53bd7c297b867b3b71e3a}{funkcja5}} (const \mbox{\hyperlink{structosobnik}{osobnik}} \&osobni)
+\begin{DoxyCompactList}\small\item\em Funkcja oceny osobnika piec \char`\"{}ocenia osobnika wzgledem ilosci parzystych i nieparystych\char`\"{}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{funkcje_8cpp_ad34f3eb0373d71abea853dfc1d9c4ead}{funkcja4}} (const \mbox{\hyperlink{structosobnik}{osobnik}} \&osobni)
+\begin{DoxyCompactList}\small\item\em Funkcja oceny osobnika trzy \char`\"{}ocenia osobnika wzgledem ilosci podanej cyfry\char`\"{}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{funkcje_8cpp_a372eb80e350b0f9adb38566c969fe989}{funkcja3}} (const \mbox{\hyperlink{structosobnik}{osobnik}} \&osobni)
+\begin{DoxyCompactList}\small\item\em Funkcja oceny osobnika trzy \char`\"{}ocenia osobnika wzgledem sredniej arytmetycznej\char`\"{}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{funkcje_8cpp_aa25530cc0aff39d7d0baa4fe7cf0b7d1}{funkcja2}} (const \mbox{\hyperlink{structosobnik}{osobnik}} \&osobni)
+\begin{DoxyCompactList}\small\item\em Funkcja oceny osobnika dwa \char`\"{}ocenia osobnika wzgledem dlugosci n\char`\"{}. \end{DoxyCompactList}\item 
+std\+::pair$<$ \mbox{\hyperlink{structpopulacja}{populacja}}, \mbox{\hyperlink{structpopulacja}{populacja}} $>$ \mbox{\hyperlink{funkcje_8cpp_a195da4da6b9d3891321790f0e6acf525}{wymieranie\+\_\+rozmnazanie}} (const \mbox{\hyperlink{structpopulacja}{populacja}} \&POPA, const double ws\+\_\+wymier, const double ws\+\_\+rozm)
+\begin{DoxyCompactList}\small\item\em Funkcja zapisujaca osobnikow niewymierajacych oraz osobnikow rozmnazajacych sie. \end{DoxyCompactList}\item 
+std\+::pair$<$ \mbox{\hyperlink{structosobnik}{osobnik}}, \mbox{\hyperlink{structosobnik}{osobnik}} $>$ \mbox{\hyperlink{funkcje_8cpp_ac7b48748630ef41876a85b7507e132df}{krzyzowanie}} (const \mbox{\hyperlink{structpopulacja}{populacja}} \&POPB)
+\begin{DoxyCompactList}\small\item\em Funkcja krzyzuje dwoch osobnikow tworzac dwoch osobnikow. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{funkcje_8cpp_a7a8de3f41e1a1c2e9e12c30458d42ae2}{wpisanie}} (const \mbox{\hyperlink{structpopulacja}{populacja}} \&POP, \mbox{\hyperlink{structpopulacja}{populacja}} \&POPA)
+\begin{DoxyCompactList}\small\item\em Funkcja wpisuje populacje POP do populacji POPA. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{funkcje_8cpp_ac9e4bf92845aad99db76024c69b3f9a3}\label{funkcje_8cpp_ac9e4bf92845aad99db76024c69b3f9a3}} 
+\index{funkcje.cpp@{funkcje.cpp}!f\_przel@{f\_przel}}
+\index{f\_przel@{f\_przel}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{f\_przel()}{f\_przel()}}
+{\footnotesize\ttfamily std\+::map$<$ std\+::string, char $\ast$ $>$ f\+\_\+przel (\begin{DoxyParamCaption}\item[{const int}]{ile,  }\item[{char $\ast$}]{params\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja tworzy mape przelacznikow. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em ile} & dlugosc tablicy \\
+\hline
+{\em params\mbox{[}$\,$\mbox{]}} & tablica parametrow \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+mapa przelacznikow 
+\end{DoxyReturn}
+\begin{DoxyNote}{Nota}
+przyklad (mapa\mbox{[}-\/p\mbox{]}=12) 
+\end{DoxyNote}
+\mbox{\Hypertarget{funkcje_8cpp_ac57e3f48d4c3de8f8ee280c4db13fc93}\label{funkcje_8cpp_ac57e3f48d4c3de8f8ee280c4db13fc93}} 
+\index{funkcje.cpp@{funkcje.cpp}!file\_generator@{file\_generator}}
+\index{file\_generator@{file\_generator}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{file\_generator()}{file\_generator()}}
+{\footnotesize\ttfamily void file\+\_\+generator (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file,  }\item[{const std\+::size\+\_\+t \&}]{il\+\_\+wierszy,  }\item[{const std\+::size\+\_\+t \&}]{maks\+\_\+dl,  }\item[{const int}]{min\+\_\+dl,  }\item[{const std\+::size\+\_\+t \&}]{maksyzmalna\+\_\+wartosc,  }\item[{const int}]{minimalna\+\_\+warotsc }\end{DoxyParamCaption})}
+
+
+
+Funkcja generuje plilk z przykladowa populacja. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em file} & nazwa pliku generowanego \\
+\hline
+{\em il\+\_\+wierszy} & ilosc wierszy w pliku \\
+\hline
+{\em maks\+\_\+dl} & maksymalna dlugos osobnika \\
+\hline
+{\em min\+\_\+dl} & minimalna dlugos osobnika \\
+\hline
+{\em maksyzmalna\+\_\+wartosc} & maksymalna wartosc jednego genu u osobnika \\
+\hline
+{\em minimalna\+\_\+warotsc} & minimalna wartosc jednego genu u osobnika \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+plik nic nie zwraca 
+\end{DoxyReturn}
+\begin{DoxyNote}{Nota}
+funkcja tworzy plik w folderze w ktorym jest prokejt 
+\end{DoxyNote}
+\mbox{\Hypertarget{funkcje_8cpp_aa25530cc0aff39d7d0baa4fe7cf0b7d1}\label{funkcje_8cpp_aa25530cc0aff39d7d0baa4fe7cf0b7d1}} 
+\index{funkcje.cpp@{funkcje.cpp}!funkcja2@{funkcja2}}
+\index{funkcja2@{funkcja2}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{funkcja2()}{funkcja2()}}
+{\footnotesize\ttfamily double funkcja2 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structosobnik}{osobnik}} \&}]{osobni }\end{DoxyParamCaption})}
+
+
+
+Funkcja oceny osobnika dwa \char`\"{}ocenia osobnika wzgledem dlugosci n\char`\"{}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em osobni} & osobnik do oceny \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+wspolczynnik przystosowania si{\ucr} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_a372eb80e350b0f9adb38566c969fe989}\label{funkcje_8cpp_a372eb80e350b0f9adb38566c969fe989}} 
+\index{funkcje.cpp@{funkcje.cpp}!funkcja3@{funkcja3}}
+\index{funkcja3@{funkcja3}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{funkcja3()}{funkcja3()}}
+{\footnotesize\ttfamily double funkcja3 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structosobnik}{osobnik}} \&}]{osobni }\end{DoxyParamCaption})}
+
+
+
+Funkcja oceny osobnika trzy \char`\"{}ocenia osobnika wzgledem sredniej arytmetycznej\char`\"{}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em osobni} & osobnik do oceny \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+wspolczynnik przystosowania si{\ucr} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_ad34f3eb0373d71abea853dfc1d9c4ead}\label{funkcje_8cpp_ad34f3eb0373d71abea853dfc1d9c4ead}} 
+\index{funkcje.cpp@{funkcje.cpp}!funkcja4@{funkcja4}}
+\index{funkcja4@{funkcja4}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{funkcja4()}{funkcja4()}}
+{\footnotesize\ttfamily double funkcja4 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structosobnik}{osobnik}} \&}]{osobni }\end{DoxyParamCaption})}
+
+
+
+Funkcja oceny osobnika trzy \char`\"{}ocenia osobnika wzgledem ilosci podanej cyfry\char`\"{}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em osobni} & osobnik do oceny \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+wspolczynnik przystosowania si{\ucr} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_a0e17347af2c53bd7c297b867b3b71e3a}\label{funkcje_8cpp_a0e17347af2c53bd7c297b867b3b71e3a}} 
+\index{funkcje.cpp@{funkcje.cpp}!funkcja5@{funkcja5}}
+\index{funkcja5@{funkcja5}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{funkcja5()}{funkcja5()}}
+{\footnotesize\ttfamily double funkcja5 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structosobnik}{osobnik}} \&}]{osobni }\end{DoxyParamCaption})}
+
+
+
+Funkcja oceny osobnika piec \char`\"{}ocenia osobnika wzgledem ilosci parzystych i nieparystych\char`\"{}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em osobni} & osobnik do oceny \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+wspolczynnik przystosowania si{\ucr} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_ac7b48748630ef41876a85b7507e132df}\label{funkcje_8cpp_ac7b48748630ef41876a85b7507e132df}} 
+\index{funkcje.cpp@{funkcje.cpp}!krzyzowanie@{krzyzowanie}}
+\index{krzyzowanie@{krzyzowanie}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{krzyzowanie()}{krzyzowanie()}}
+{\footnotesize\ttfamily std\+::pair$<$ \mbox{\hyperlink{structosobnik}{osobnik}}, \mbox{\hyperlink{structosobnik}{osobnik}} $>$ krzyzowanie (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structpopulacja}{populacja}} \&}]{POPB }\end{DoxyParamCaption})}
+
+
+
+Funkcja krzyzuje dwoch osobnikow tworzac dwoch osobnikow. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em POPB} & populacja w ktorej zachodzi krzyzowanie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+zwraca dwoch osobnikow powstalych dzieki krzyzowaniu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_a8848f875fd84494829909855f035f860}\label{funkcje_8cpp_a8848f875fd84494829909855f035f860}} 
+\index{funkcje.cpp@{funkcje.cpp}!los@{los}}
+\index{los@{los}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{los()}{los()}}
+{\footnotesize\ttfamily std\+::size\+\_\+t los (\begin{DoxyParamCaption}\item[{const int}]{mini,  }\item[{const std\+::size\+\_\+t \&}]{maks }\end{DoxyParamCaption})}
+
+
+
+Funkcja losuje z dodatniego przedzialu liczbe calkowita. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em mini} & minimalna wartosc do wypisania \\
+\hline
+{\em maks} & maksymalna wartosc do wypisania \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+funkcja zwraca wartosc calkowita z podanego przedzialu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_a3996afae01b1dbc8829e177f04620709}\label{funkcje_8cpp_a3996afae01b1dbc8829e177f04620709}} 
+\index{funkcje.cpp@{funkcje.cpp}!odczyt@{odczyt}}
+\index{odczyt@{odczyt}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{odczyt()}{odczyt()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structpopulacja}{populacja}} odczyt (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{nazwa\+\_\+pliku }\end{DoxyParamCaption})}
+
+
+
+Funkcja odczytuje z pliku populacje. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em nazwa\+\_\+pliku} & nazwa pliku odczytywanego \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+populacje odczytana 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_ac151dcf388e30ebdbc5d2a7d575ab3a9}\label{funkcje_8cpp_ac151dcf388e30ebdbc5d2a7d575ab3a9}} 
+\index{funkcje.cpp@{funkcje.cpp}!sprawdzanie\_przel@{sprawdzanie\_przel}}
+\index{sprawdzanie\_przel@{sprawdzanie\_przel}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{sprawdzanie\_przel()}{sprawdzanie\_przel()}}
+{\footnotesize\ttfamily int sprawdzanie\+\_\+przel (\begin{DoxyParamCaption}\item[{const int}]{ile,  }\item[{char $\ast$}]{params\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja sprawdza poprawnosc przelacznikow podanych na wejsciu. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em ile} & dlugosc tablicy \\
+\hline
+{\em params\mbox{[}$\,$\mbox{]}} & tablica parametrow \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+zwraca 1 gdy przelaczniki sa zle dobrane lub 0 gdy przelaczniki sa poprawne 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_a7a8de3f41e1a1c2e9e12c30458d42ae2}\label{funkcje_8cpp_a7a8de3f41e1a1c2e9e12c30458d42ae2}} 
+\index{funkcje.cpp@{funkcje.cpp}!wpisanie@{wpisanie}}
+\index{wpisanie@{wpisanie}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{wpisanie()}{wpisanie()}}
+{\footnotesize\ttfamily void wpisanie (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structpopulacja}{populacja}} \&}]{POP,  }\item[{\mbox{\hyperlink{structpopulacja}{populacja}} \&}]{POPA }\end{DoxyParamCaption})}
+
+
+
+Funkcja wpisuje populacje POP do populacji POPA. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em POP} & populacja ktora wpisujemy \\
+\hline
+{\em POPA} & populacja do ktorej wpisujemy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+funkcja nic nie zwraca, lecz modyfikuje POPA 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_a195da4da6b9d3891321790f0e6acf525}\label{funkcje_8cpp_a195da4da6b9d3891321790f0e6acf525}} 
+\index{funkcje.cpp@{funkcje.cpp}!wymieranie\_rozmnazanie@{wymieranie\_rozmnazanie}}
+\index{wymieranie\_rozmnazanie@{wymieranie\_rozmnazanie}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{wymieranie\_rozmnazanie()}{wymieranie\_rozmnazanie()}}
+{\footnotesize\ttfamily std\+::pair$<$ \mbox{\hyperlink{structpopulacja}{populacja}}, \mbox{\hyperlink{structpopulacja}{populacja}} $>$ wymieranie\+\_\+rozmnazanie (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structpopulacja}{populacja}} \&}]{POPA,  }\item[{const double}]{ws\+\_\+wymier,  }\item[{const double}]{ws\+\_\+rozm }\end{DoxyParamCaption})}
+
+
+
+Funkcja zapisujaca osobnikow niewymierajacych oraz osobnikow rozmnazajacych sie. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em POPA} & populacja przeszukiwana \\
+\hline
+{\em ws\+\_\+wymier} & wspolczynnik wymierania \\
+\hline
+{\em ws\+\_\+rozm} & wspolczynnik rozmnazania sie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+pare populacji 1.\+niewymirajacych 2.\+rozmnazajacych 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_a93288eaeffadaa4318ca5e9524c058bc}\label{funkcje_8cpp_a93288eaeffadaa4318ca5e9524c058bc}} 
+\index{funkcje.cpp@{funkcje.cpp}!wypisz\_osobnik@{wypisz\_osobnik}}
+\index{wypisz\_osobnik@{wypisz\_osobnik}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{wypisz\_osobnik()}{wypisz\_osobnik()}}
+{\footnotesize\ttfamily void wypisz\+\_\+osobnik (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structosobnik}{osobnik}} \&}]{osA }\end{DoxyParamCaption})}
+
+
+
+Funkcja wypisuje na ekran osobnik. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em osA} & osobnik do wypisania \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Funkcja nic nie zwraca 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_ac820e4374e5bbefc64cdb2f51bcc99fc}\label{funkcje_8cpp_ac820e4374e5bbefc64cdb2f51bcc99fc}} 
+\index{funkcje.cpp@{funkcje.cpp}!wypisz\_populacje@{wypisz\_populacje}}
+\index{wypisz\_populacje@{wypisz\_populacje}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{wypisz\_populacje()}{wypisz\_populacje()}}
+{\footnotesize\ttfamily void wypisz\+\_\+populacje (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structpopulacja}{populacja}} \&}]{POPA }\end{DoxyParamCaption})}
+
+
+
+Funkcja wypisuje na ekran populacje. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em POPA} & populacja do wypisania \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Funkcja nic nie zwraca 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funkcje_8cpp_abe83147bf8ecda024b885f559c6db8a2}\label{funkcje_8cpp_abe83147bf8ecda024b885f559c6db8a2}} 
+\index{funkcje.cpp@{funkcje.cpp}!zapisz\_do\_pliku@{zapisz\_do\_pliku}}
+\index{zapisz\_do\_pliku@{zapisz\_do\_pliku}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{zapisz\_do\_pliku()}{zapisz\_do\_pliku()}}
+{\footnotesize\ttfamily void zapisz\+\_\+do\+\_\+pliku (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structpopulacja}{populacja}} \&}]{POPA,  }\item[{const std\+::string \&}]{nazwa\+\_\+pliku }\end{DoxyParamCaption})}
+
+
+
+Funkcja zapisuje do pliku populacje. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em POPA} & populacja do zapisania \\
+\hline
+{\em nazwa\+\_\+pliku} & nazwa pliku do ktorego zapisujemy populacje \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Nota}
+Funkcja nadpisuje lub tworzy plik o podanej nazwie 
+\end{DoxyNote}

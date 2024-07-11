@@ -1,0 +1,691 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Dokumentacja pliku funkcje.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">My Project
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Szukaj" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('funkcje_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funkcje</a>  </div>
+  <div class="headertitle"><div class="title">Dokumentacja pliku funkcje.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;random&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &quot;<a class="el" href="struktury_8h_source.html">struktury.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="funkcje_8h_source.html">funkcje.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:ac57e3f48d4c3de8f8ee280c4db13fc93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#ac57e3f48d4c3de8f8ee280c4db13fc93">file_generator</a> (const std::string &amp;file, const std::size_t &amp;il_wierszy, const std::size_t &amp;maks_dl, const int min_dl, const std::size_t &amp;maksyzmalna_wartosc, const int minimalna_warotsc)</td></tr>
+<tr class="memdesc:ac57e3f48d4c3de8f8ee280c4db13fc93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja generuje plilk z przykladowa populacja.  <br /></td></tr>
+<tr class="separator:ac57e3f48d4c3de8f8ee280c4db13fc93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac151dcf388e30ebdbc5d2a7d575ab3a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#ac151dcf388e30ebdbc5d2a7d575ab3a9">sprawdzanie_przel</a> (const int ile, char *params[])</td></tr>
+<tr class="memdesc:ac151dcf388e30ebdbc5d2a7d575ab3a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja sprawdza poprawnosc przelacznikow podanych na wejsciu.  <br /></td></tr>
+<tr class="separator:ac151dcf388e30ebdbc5d2a7d575ab3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e4bf92845aad99db76024c69b3f9a3"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, char * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#ac9e4bf92845aad99db76024c69b3f9a3">f_przel</a> (const int ile, char *params[])</td></tr>
+<tr class="memdesc:ac9e4bf92845aad99db76024c69b3f9a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja tworzy mape przelacznikow.  <br /></td></tr>
+<tr class="separator:ac9e4bf92845aad99db76024c69b3f9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3996afae01b1dbc8829e177f04620709"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structpopulacja.html">populacja</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a3996afae01b1dbc8829e177f04620709">odczyt</a> (const std::string &amp;nazwa_pliku)</td></tr>
+<tr class="memdesc:a3996afae01b1dbc8829e177f04620709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja odczytuje z pliku populacje.  <br /></td></tr>
+<tr class="separator:a3996afae01b1dbc8829e177f04620709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe83147bf8ecda024b885f559c6db8a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#abe83147bf8ecda024b885f559c6db8a2">zapisz_do_pliku</a> (const <a class="el" href="structpopulacja.html">populacja</a> &amp;POPA, const std::string &amp;nazwa_pliku)</td></tr>
+<tr class="memdesc:abe83147bf8ecda024b885f559c6db8a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja zapisuje do pliku populacje.  <br /></td></tr>
+<tr class="separator:abe83147bf8ecda024b885f559c6db8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac820e4374e5bbefc64cdb2f51bcc99fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#ac820e4374e5bbefc64cdb2f51bcc99fc">wypisz_populacje</a> (const <a class="el" href="structpopulacja.html">populacja</a> &amp;POPA)</td></tr>
+<tr class="memdesc:ac820e4374e5bbefc64cdb2f51bcc99fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wypisuje na ekran populacje.  <br /></td></tr>
+<tr class="separator:ac820e4374e5bbefc64cdb2f51bcc99fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93288eaeffadaa4318ca5e9524c058bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a93288eaeffadaa4318ca5e9524c058bc">wypisz_osobnik</a> (const <a class="el" href="structosobnik.html">osobnik</a> &amp;osA)</td></tr>
+<tr class="memdesc:a93288eaeffadaa4318ca5e9524c058bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wypisuje na ekran osobnik.  <br /></td></tr>
+<tr class="separator:a93288eaeffadaa4318ca5e9524c058bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8848f875fd84494829909855f035f860"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a8848f875fd84494829909855f035f860">los</a> (const int mini, const std::size_t &amp;maks)</td></tr>
+<tr class="memdesc:a8848f875fd84494829909855f035f860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja losuje z dodatniego przedzialu liczbe calkowita.  <br /></td></tr>
+<tr class="separator:a8848f875fd84494829909855f035f860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e17347af2c53bd7c297b867b3b71e3a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a0e17347af2c53bd7c297b867b3b71e3a">funkcja5</a> (const <a class="el" href="structosobnik.html">osobnik</a> &amp;osobni)</td></tr>
+<tr class="memdesc:a0e17347af2c53bd7c297b867b3b71e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja oceny osobnika piec "ocenia osobnika wzgledem ilosci parzystych i nieparystych".  <br /></td></tr>
+<tr class="separator:a0e17347af2c53bd7c297b867b3b71e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34f3eb0373d71abea853dfc1d9c4ead"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#ad34f3eb0373d71abea853dfc1d9c4ead">funkcja4</a> (const <a class="el" href="structosobnik.html">osobnik</a> &amp;osobni)</td></tr>
+<tr class="memdesc:ad34f3eb0373d71abea853dfc1d9c4ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja oceny osobnika trzy "ocenia osobnika wzgledem ilosci podanej cyfry".  <br /></td></tr>
+<tr class="separator:ad34f3eb0373d71abea853dfc1d9c4ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a372eb80e350b0f9adb38566c969fe989"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a372eb80e350b0f9adb38566c969fe989">funkcja3</a> (const <a class="el" href="structosobnik.html">osobnik</a> &amp;osobni)</td></tr>
+<tr class="memdesc:a372eb80e350b0f9adb38566c969fe989"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja oceny osobnika trzy "ocenia osobnika wzgledem sredniej arytmetycznej".  <br /></td></tr>
+<tr class="separator:a372eb80e350b0f9adb38566c969fe989"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa25530cc0aff39d7d0baa4fe7cf0b7d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#aa25530cc0aff39d7d0baa4fe7cf0b7d1">funkcja2</a> (const <a class="el" href="structosobnik.html">osobnik</a> &amp;osobni)</td></tr>
+<tr class="memdesc:aa25530cc0aff39d7d0baa4fe7cf0b7d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja oceny osobnika dwa "ocenia osobnika wzgledem dlugosci n".  <br /></td></tr>
+<tr class="separator:aa25530cc0aff39d7d0baa4fe7cf0b7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a195da4da6b9d3891321790f0e6acf525"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="structpopulacja.html">populacja</a>, <a class="el" href="structpopulacja.html">populacja</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a195da4da6b9d3891321790f0e6acf525">wymieranie_rozmnazanie</a> (const <a class="el" href="structpopulacja.html">populacja</a> &amp;POPA, const double ws_wymier, const double ws_rozm)</td></tr>
+<tr class="memdesc:a195da4da6b9d3891321790f0e6acf525"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja zapisujaca osobnikow niewymierajacych oraz osobnikow rozmnazajacych sie.  <br /></td></tr>
+<tr class="separator:a195da4da6b9d3891321790f0e6acf525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7b48748630ef41876a85b7507e132df"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="structosobnik.html">osobnik</a>, <a class="el" href="structosobnik.html">osobnik</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#ac7b48748630ef41876a85b7507e132df">krzyzowanie</a> (const <a class="el" href="structpopulacja.html">populacja</a> &amp;POPB)</td></tr>
+<tr class="memdesc:ac7b48748630ef41876a85b7507e132df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja krzyzuje dwoch osobnikow tworzac dwoch osobnikow.  <br /></td></tr>
+<tr class="separator:ac7b48748630ef41876a85b7507e132df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8de3f41e1a1c2e9e12c30458d42ae2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a7a8de3f41e1a1c2e9e12c30458d42ae2">wpisanie</a> (const <a class="el" href="structpopulacja.html">populacja</a> &amp;POP, <a class="el" href="structpopulacja.html">populacja</a> &amp;POPA)</td></tr>
+<tr class="memdesc:a7a8de3f41e1a1c2e9e12c30458d42ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wpisuje populacje POP do populacji POPA.  <br /></td></tr>
+<tr class="separator:a7a8de3f41e1a1c2e9e12c30458d42ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="ac9e4bf92845aad99db76024c69b3f9a3" name="ac9e4bf92845aad99db76024c69b3f9a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9e4bf92845aad99db76024c69b3f9a3">&#9670;&#160;</a></span>f_przel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt; std::string, char * &gt; f_przel </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>ile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>params</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja tworzy mape przelacznikow. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ile</td><td>dlugosc tablicy </td></tr>
+    <tr><td class="paramname">params[]</td><td>tablica parametrow </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>mapa przelacznikow </dd></dl>
+<dl class="section note"><dt>Nota</dt><dd>przyklad (mapa[-p]=12) </dd></dl>
+
+</div>
+</div>
+<a id="ac57e3f48d4c3de8f8ee280c4db13fc93" name="ac57e3f48d4c3de8f8ee280c4db13fc93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac57e3f48d4c3de8f8ee280c4db13fc93">&#9670;&#160;</a></span>file_generator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void file_generator </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::size_t &amp;&#160;</td>
+          <td class="paramname"><em>il_wierszy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::size_t &amp;&#160;</td>
+          <td class="paramname"><em>maks_dl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>min_dl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::size_t &amp;&#160;</td>
+          <td class="paramname"><em>maksyzmalna_wartosc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>minimalna_warotsc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja generuje plilk z przykladowa populacja. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>nazwa pliku generowanego </td></tr>
+    <tr><td class="paramname">il_wierszy</td><td>ilosc wierszy w pliku </td></tr>
+    <tr><td class="paramname">maks_dl</td><td>maksymalna dlugos osobnika </td></tr>
+    <tr><td class="paramname">min_dl</td><td>minimalna dlugos osobnika </td></tr>
+    <tr><td class="paramname">maksyzmalna_wartosc</td><td>maksymalna wartosc jednego genu u osobnika </td></tr>
+    <tr><td class="paramname">minimalna_warotsc</td><td>minimalna wartosc jednego genu u osobnika </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>plik nic nie zwraca </dd></dl>
+<dl class="section note"><dt>Nota</dt><dd>funkcja tworzy plik w folderze w ktorym jest prokejt </dd></dl>
+
+</div>
+</div>
+<a id="aa25530cc0aff39d7d0baa4fe7cf0b7d1" name="aa25530cc0aff39d7d0baa4fe7cf0b7d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa25530cc0aff39d7d0baa4fe7cf0b7d1">&#9670;&#160;</a></span>funkcja2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double funkcja2 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structosobnik.html">osobnik</a> &amp;&#160;</td>
+          <td class="paramname"><em>osobni</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja oceny osobnika dwa "ocenia osobnika wzgledem dlugosci n". </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">osobni</td><td>osobnik do oceny </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>wspolczynnik przystosowania si� </dd></dl>
+
+</div>
+</div>
+<a id="a372eb80e350b0f9adb38566c969fe989" name="a372eb80e350b0f9adb38566c969fe989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a372eb80e350b0f9adb38566c969fe989">&#9670;&#160;</a></span>funkcja3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double funkcja3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structosobnik.html">osobnik</a> &amp;&#160;</td>
+          <td class="paramname"><em>osobni</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja oceny osobnika trzy "ocenia osobnika wzgledem sredniej arytmetycznej". </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">osobni</td><td>osobnik do oceny </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>wspolczynnik przystosowania si� </dd></dl>
+
+</div>
+</div>
+<a id="ad34f3eb0373d71abea853dfc1d9c4ead" name="ad34f3eb0373d71abea853dfc1d9c4ead"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad34f3eb0373d71abea853dfc1d9c4ead">&#9670;&#160;</a></span>funkcja4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double funkcja4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structosobnik.html">osobnik</a> &amp;&#160;</td>
+          <td class="paramname"><em>osobni</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja oceny osobnika trzy "ocenia osobnika wzgledem ilosci podanej cyfry". </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">osobni</td><td>osobnik do oceny </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>wspolczynnik przystosowania si� </dd></dl>
+
+</div>
+</div>
+<a id="a0e17347af2c53bd7c297b867b3b71e3a" name="a0e17347af2c53bd7c297b867b3b71e3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e17347af2c53bd7c297b867b3b71e3a">&#9670;&#160;</a></span>funkcja5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double funkcja5 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structosobnik.html">osobnik</a> &amp;&#160;</td>
+          <td class="paramname"><em>osobni</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja oceny osobnika piec "ocenia osobnika wzgledem ilosci parzystych i nieparystych". </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">osobni</td><td>osobnik do oceny </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>wspolczynnik przystosowania si� </dd></dl>
+
+</div>
+</div>
+<a id="ac7b48748630ef41876a85b7507e132df" name="ac7b48748630ef41876a85b7507e132df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7b48748630ef41876a85b7507e132df">&#9670;&#160;</a></span>krzyzowanie()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="structosobnik.html">osobnik</a>, <a class="el" href="structosobnik.html">osobnik</a> &gt; krzyzowanie </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structpopulacja.html">populacja</a> &amp;&#160;</td>
+          <td class="paramname"><em>POPB</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja krzyzuje dwoch osobnikow tworzac dwoch osobnikow. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">POPB</td><td>populacja w ktorej zachodzi krzyzowanie </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>zwraca dwoch osobnikow powstalych dzieki krzyzowaniu </dd></dl>
+
+</div>
+</div>
+<a id="a8848f875fd84494829909855f035f860" name="a8848f875fd84494829909855f035f860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8848f875fd84494829909855f035f860">&#9670;&#160;</a></span>los()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t los </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>mini</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::size_t &amp;&#160;</td>
+          <td class="paramname"><em>maks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja losuje z dodatniego przedzialu liczbe calkowita. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mini</td><td>minimalna wartosc do wypisania </td></tr>
+    <tr><td class="paramname">maks</td><td>maksymalna wartosc do wypisania </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>funkcja zwraca wartosc calkowita z podanego przedzialu </dd></dl>
+
+</div>
+</div>
+<a id="a3996afae01b1dbc8829e177f04620709" name="a3996afae01b1dbc8829e177f04620709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3996afae01b1dbc8829e177f04620709">&#9670;&#160;</a></span>odczyt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structpopulacja.html">populacja</a> odczyt </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>nazwa_pliku</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja odczytuje z pliku populacje. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nazwa_pliku</td><td>nazwa pliku odczytywanego </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>populacje odczytana </dd></dl>
+
+</div>
+</div>
+<a id="ac151dcf388e30ebdbc5d2a7d575ab3a9" name="ac151dcf388e30ebdbc5d2a7d575ab3a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac151dcf388e30ebdbc5d2a7d575ab3a9">&#9670;&#160;</a></span>sprawdzanie_przel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int sprawdzanie_przel </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>ile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>params</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja sprawdza poprawnosc przelacznikow podanych na wejsciu. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ile</td><td>dlugosc tablicy </td></tr>
+    <tr><td class="paramname">params[]</td><td>tablica parametrow </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>zwraca 1 gdy przelaczniki sa zle dobrane lub 0 gdy przelaczniki sa poprawne </dd></dl>
+
+</div>
+</div>
+<a id="a7a8de3f41e1a1c2e9e12c30458d42ae2" name="a7a8de3f41e1a1c2e9e12c30458d42ae2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a8de3f41e1a1c2e9e12c30458d42ae2">&#9670;&#160;</a></span>wpisanie()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wpisanie </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structpopulacja.html">populacja</a> &amp;&#160;</td>
+          <td class="paramname"><em>POP</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structpopulacja.html">populacja</a> &amp;&#160;</td>
+          <td class="paramname"><em>POPA</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wpisuje populacje POP do populacji POPA. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">POP</td><td>populacja ktora wpisujemy </td></tr>
+    <tr><td class="paramname">POPA</td><td>populacja do ktorej wpisujemy </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>funkcja nic nie zwraca, lecz modyfikuje POPA </dd></dl>
+
+</div>
+</div>
+<a id="a195da4da6b9d3891321790f0e6acf525" name="a195da4da6b9d3891321790f0e6acf525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a195da4da6b9d3891321790f0e6acf525">&#9670;&#160;</a></span>wymieranie_rozmnazanie()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="structpopulacja.html">populacja</a>, <a class="el" href="structpopulacja.html">populacja</a> &gt; wymieranie_rozmnazanie </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structpopulacja.html">populacja</a> &amp;&#160;</td>
+          <td class="paramname"><em>POPA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>ws_wymier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>ws_rozm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja zapisujaca osobnikow niewymierajacych oraz osobnikow rozmnazajacych sie. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">POPA</td><td>populacja przeszukiwana </td></tr>
+    <tr><td class="paramname">ws_wymier</td><td>wspolczynnik wymierania </td></tr>
+    <tr><td class="paramname">ws_rozm</td><td>wspolczynnik rozmnazania sie </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>pare populacji 1.niewymirajacych 2.rozmnazajacych </dd></dl>
+
+</div>
+</div>
+<a id="a93288eaeffadaa4318ca5e9524c058bc" name="a93288eaeffadaa4318ca5e9524c058bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93288eaeffadaa4318ca5e9524c058bc">&#9670;&#160;</a></span>wypisz_osobnik()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wypisz_osobnik </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structosobnik.html">osobnik</a> &amp;&#160;</td>
+          <td class="paramname"><em>osA</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wypisuje na ekran osobnik. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">osA</td><td>osobnik do wypisania </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Funkcja nic nie zwraca </dd></dl>
+
+</div>
+</div>
+<a id="ac820e4374e5bbefc64cdb2f51bcc99fc" name="ac820e4374e5bbefc64cdb2f51bcc99fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac820e4374e5bbefc64cdb2f51bcc99fc">&#9670;&#160;</a></span>wypisz_populacje()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wypisz_populacje </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structpopulacja.html">populacja</a> &amp;&#160;</td>
+          <td class="paramname"><em>POPA</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wypisuje na ekran populacje. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">POPA</td><td>populacja do wypisania </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Funkcja nic nie zwraca </dd></dl>
+
+</div>
+</div>
+<a id="abe83147bf8ecda024b885f559c6db8a2" name="abe83147bf8ecda024b885f559c6db8a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe83147bf8ecda024b885f559c6db8a2">&#9670;&#160;</a></span>zapisz_do_pliku()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void zapisz_do_pliku </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structpopulacja.html">populacja</a> &amp;&#160;</td>
+          <td class="paramname"><em>POPA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>nazwa_pliku</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja zapisuje do pliku populacje. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">POPA</td><td>populacja do zapisania </td></tr>
+    <tr><td class="paramname">nazwa_pliku</td><td>nazwa pliku do ktorego zapisujemy populacje </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Nota</dt><dd>Funkcja nadpisuje lub tworzy plik o podanej nazwie </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="funkcje_8cpp.html">funkcje.cpp</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>
